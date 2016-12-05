@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+
+    <!-- Strings for sort order setting-->
+    <string name="pref_sorting_key" translatable="false">sort_by</string>
+    <string name="pref_sorting_title">Sort by</string>
+    <string name="pref_sorting_popular_value" translatable="false">popular</string>
+    <string name="pref_sorting_rating_value" translatable="false">top_rated</string>
+    <string name="pref_sorting_popular_display">Most Popular</string>
+    <string name="pref_sorting_rating_display">Top Rated</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
