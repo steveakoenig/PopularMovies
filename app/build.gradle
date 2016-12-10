@@ -18,6 +18,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildTypes.each {
+        it.buildConfigField 'String', 'TMDB_API_KEY', API_KEY_HERE
+        it.buildConfigField 'String', 'TMDB_LISTING_BASE_PATH', '"http://api.themoviedb.org/3/movie/"'
+        it.buildConfigField 'String', 'TMDB_MOVIE_BASE_PATH', '"http://image.tmdb.org/t/p/w342"'
+    }
 }
 
 repositories {

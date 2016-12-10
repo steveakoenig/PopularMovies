@@ -28,6 +28,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.steveko.popularmovies.MainActivity" />
         </activity>
+        <activity android:name=".MovieDetailActivity"></activity>
     </application>
 
 </manifest>

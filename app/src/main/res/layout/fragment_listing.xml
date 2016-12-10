@@ -5,9 +5,14 @@
     tools:context="com.example.steveko.popularmovies.ListingFragment">
 
     <GridView
+        android:id="@+id/gridview_listing"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/listview_listing"
-        android:stretchMode="spacingWidth"/>
+        android:columnWidth="@dimen/grid_width"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="@dimen/grid_vertical_spacing"
+        android:horizontalSpacing="@dimen/grid_horizontal_spacing"
+        android:gravity="center"
+        android:stretchMode="spacingWidthUniform"/>
 
 </FrameLayout>
